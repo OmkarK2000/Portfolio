@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+.right{
+    margin-right: 20px;
+}
+.right ul{
+    display: flex;
+    gap: 30px;
+}
+.right ul li{
+    list-style: none;
+    /* font-size: 35px; */
+    font-size: calc(30px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+/* Navbar end */
+
+/* Hero section start  */
+
+.hero{
+    display: flex;
+    height: calc(100vh - 60px);
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.hero-text{
+    margin-left: 70px;
+}
+
+.hero-text h1{
+    font-size: calc(80px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+.hero-text p{
+    font-size: calc(30px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: calc(20px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+.btn:active{
+    background-color: aqua;
+}
+
+.social-links{
+    margin-right: 30px;
+}
+.social-links ul li{
+    list-style: none;
+}
+
+/* Hero section end  */
+
+/* About section start  */
+
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text{
+    margin-left: 70px;
+}
+
+.about-text h1{
+    font-size: calc(40px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+.about-text p{
+    font-size: calc(30px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+    margin-top: 20px;
+}
+
+.about-img{
+    margin-right: 70px;
+}
+
+.about-img img{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.skills{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skiils-outer-container{
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 680px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+.skiils-outer-container h1{
+    margin-bottom: 20px;
+    font-size: calc(30px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+.skills-container{
+    width: 540px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-container div{
+    width: 150px;
+    margin: 10px 14px;
+}
+
+.skills-container img{
+    width: 30px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+.project-outer-container{
+    border: 1px solid gray;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.project-header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-header h1{
+    font-size: calc(40px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 380px;
+    text-align: center;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.project-image-container {
+    width: 300px;
+}
+
+.project-image-container img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.project-card p{
+    font-size: calc(20px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+    margin: 10px;
+}
+
+.project-button{
+
+}
+
+.project-button button{
+    width: 100px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.contact-header h1{
+    font-size: calc(30px + (24 - 16) * ((100vw - 320px)/(1920 - 320)));
+}
+
+.contact-sub img{
+    width: 30px;
+}
+
+.contact-main{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
