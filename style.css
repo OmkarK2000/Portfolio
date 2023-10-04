@@ -19,6 +19,10 @@
     margin-left: 20px;
 }
 
+.left img{
+    width: 50px; 
+}
+
 .right{
     margin-right: 20px;
 }
@@ -223,13 +227,23 @@
     border-radius: 40px;
 }
 
+.contact-container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 .contact{
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
     flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 30px;
 }
 
 .contact-header h1{
@@ -244,4 +258,29 @@
     display: flex;
     width: 200px;
     justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contact-sub{
+    display: flex;
+    align-items: center;
+}
+
+.contact-sub a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 500;
 }
