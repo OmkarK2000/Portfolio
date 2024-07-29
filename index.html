@@ -1,157 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-</head>
-
-<body>
-    <header>
-        <nav class="navbar">
-            <span class="left">
-                <img src="./img/logo.png" alt="Logo">
-            </span>
-            <span class="right">
-                <ul>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                </ul>
-            </span>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div>
+          <h3>Omkar.dev</h3>
+        </div>
+        <ul class="list-container">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contactP">Contact</a></li>
+        </ul>
+        <div class="download">
+          <button class="btn-primary">Download CV</button>
+        </div>
+      </nav>
+      <div class="toggle-menu">
+        <ul class="toggle-list-container">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contactP">Contact</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Omkar Kardile</h1>
-                <p>Frontend Developer</p>
-                <button class="btn">Download CV</button>
-            </div>
-            <div class="social-links">
-                <ul>
-                    <li><a href=""><img src="" alt="tw"></a></li>
-                    <li><a href=""><img src="" alt="Li"></a></li>
-                    <li><a href=""><img src="" alt="Git"></a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="about">
-            <div class="about-text">
-                <h1>About me</h1>
-                <p>Hello. My name is Omkar Kardile. I am graduated with Bachelor of Computer Application and am looking
-                    for Frontend Developer role.</p>
-            </div>
-            <div class="about-img">
-                <img src="./img/IMG_20230930_052508.jpg" alt="">
-            </div>
-        </section>
-
-        <section class="skills">
-            <div class="skiils-outer-container">
-                <h1>Skills</h1>
-                <div class="skills-container">
-                    <div>
-                        <img src="img/checkmark.png" alt="">
-                        <span>
-                            <h3>HTML</h3>
-                            <p>Intermediate</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src="img/checkmark.png" alt="">
-                        <span>
-                            <h3>CSS</h3>
-                            <p>Intermediate</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src="img/checkmark.png" alt="">
-                        <span>
-                            <h3>Bootstrap</h3>
-                            <p>Intermediate</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src="img/checkmark.png" alt="">
-                        <span>
-                            <h3>JavaScipt</h3>
-                            <p>Intermediate</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src="img/checkmark.png" alt="">
-                        <span>
-                            <h3>React</h3>
-                            <p>Basic</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src="img/checkmark.png" alt="">
-                        <span>
-                            <h3>Tailwind CSS</h3>
-                            <p>Basic</p>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="projects">
-            <div class="project-outer-container">
-                <div class="project-header">
-                    <h1>Projects</h1>
-                </div>
-                <div class="project-container">
-                    <div class="project-card">
-                        <div class="project-image-container">
-                            <img src="./img/project-1.png" alt="">
-                        </div>
-                        <p>Project name</p>
-                        <div class="project-button">
-                            <button>Live Demo</button>
-                            <button>Github</button>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image-container">
-                            <img src="./img/project-1.png" alt="">
-                        </div>
-                        <p>Project name</p>
-                        <div class="project-button">
-                            <button>Live Demo</button>
-                            <button>Github</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact-container">
-            <div class="contact">
-                <div class="contact-header">
-                    <h1>Contact Me</h1>
-                </div>
-                <div class="contact-main">
-                    <div class="contact-sub">
-                        <img src="./img/email.png" alt="">
-                        <a href="omkarkardile2000@gmail.com">Gmali</a>
-                    </div>
-                    <div class="contact-sub">
-                        <img src="./img/linkedin.png" alt="">
-                        <a href="Linkdin.com/omkarkardile">Linkdin</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div class="hero">
+        <div class="hero-content-container">
+          <h3>Omkar Kardile</h3>
+          <h2>Im <span>Frontend Developer</span></h2>
+          <p>
+            Frontend developer with a passion for creating visually stunning and
+            user-friendly websites.
+          </p>
+          <div>
+            <button class="btn-secondry">Hire me</button>
+            <button class="btn-primary">Download CV</button>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <img src="/img/hero.png" alt="" />
+        </div>
+      </div>
+      <div class="about">
+        <div class="about-header">
+          <h3>About Me</h3>
+        </div>
+        <div class="about-content-container">
+          <div class="about-content-left-container">
+            <h4>My introduction</h4>
+            <p>
+              Frontend Developer proficient in HTML, CSS, and JavaScript with
+              strong skills in TailwindCSS and React frameworks. BCA graduate.
+            </p>
+            <button class="btn-secondry">Download CV</button>
+          </div>
+          <div class="about-content-right-container">
+            <h4>Frontend Developer</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TailwindCSS</li>
+              <li>React JS</li>
+              <li>Redux JS</li>
+              <li>Git & Github</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>
-        <p>Copyright &copy; 2023 Omkar Kardile. All Rights Reserved.</p>
-    </footer>
-</body>
-
+  </body>
 </html>

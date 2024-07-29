@@ -1,0 +1,32 @@
+@media only screen and (max-width:500px){
+    .list-container{
+        display: none;
+    }
+    .navbar{
+       padding-inline: 2rem;
+    }
+    .download{
+        display: none;
+    }
+    .toggle-menu{
+        display: flex;
+
+    }
+    .toggle-list-container{
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+        font-size: 24px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        backdrop-filter: blur(10px);
+    }
+    .toggle-list-container a{
+        text-decoration: none;
+        color: black;
+    }
+}
