@@ -23,10 +23,10 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#project">Projects</a></li>
-          <li><a href="#contactP">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="download">
-          <button class="btn-primary">Download CV</button>
+          <a class="btn-primary" href="./asset/Omkar CV.pdf" target="_blank">Download CV</a>
         </div>
       </nav>
       <div class="toggle-menu">
@@ -34,12 +34,12 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#project">Projects</a></li>
-          <li><a href="#contactP">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <div class="hero">
+      <div class="hero" id="home">
         <div class="hero-content-container">
           <h3>Omkar Kardile</h3>
           <h2>Im <span>Frontend Developer</span></h2>
@@ -49,14 +49,14 @@
           </p>
           <div>
             <button class="btn-secondry">Hire me</button>
-            <button class="btn-primary">Download CV</button>
+            <a class="btn-primary" href="./asset/Omkar CV.pdf" target="_blank">Download CV</a>
           </div>
         </div>
         <div class="hero-img-container">
           <img src="/img/hero.png" alt="" />
         </div>
       </div>
-      <div class="about">
+      <div class="about" id="about">
         <div class="about-header">
           <h3>About Me</h3>
         </div>
@@ -83,6 +83,73 @@
           </div>
         </div>
       </div>
+      <div class="projects" id="project">
+        <div class="project-header">
+          <h2>Projects</h2>
+        </div>
+        <div class="project-content">
+          <div class="project-card">
+            <div class="img-container">
+              <img src="./img/eStore.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h3>E-commerce</h3>
+              <p>
+                Build a E-commerce store using technologies like React.js, Redux-toolkit, REST API and Tailwind CSS. Utilize a DummyJSON API to fetch products data.
+                Handle API responses and error appropriately. 
+              </p>
+              <button class="btn-secondry">Go to website</button>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="img-container">
+              <img src="./img/weatherApp.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h3>Weather App</h3>
+              <p>
+                Introducing a Weather Website, a sleek and user-friendly weather website built entirely using React.js. With a clean and intuitive interface, this weather website provides up-to-date weather information for any location worldwide.
+              </p>
+              <button class="btn-secondry">Go to website</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <div class="contact-header">
+          <h2>Get in touch</h2>
+          <p>Do you have a project in your mind, contact me here</p>
+        </div>
+        <div class="content">
+          <div class="contact-left-content">
+            <h4>Find Me</h4>
+            <h5>Gmail: omkarkardile2000@gmail.com</h5>
+            <h5>Tel: 8956274619</h5>
+          </div>
+          <div class="contact-right-content">
+            <div class="contact-input-container">
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email" >
+            </div>
+            <div>
+              <textarea placeholder="Message" rows="12"></textarea>
+            </div>
+            <button class="btn-blue">Send</button>
+          </div>
+        </div>
+      </div>
     </main>
+    <footer>
+      <div class="footer">
+        <h3>Omkar Kardile</h3>
+        <ul>        
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h5>Copyright &copy; Omkar Kardile - All rights reserved</h5>
+      </div>
+    </footer>
   </body>
 </html>
