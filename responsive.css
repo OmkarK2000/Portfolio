@@ -1,32 +1,36 @@
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .list-container{
         display: none;
     }
     .navbar{
-       padding-inline: 2rem;
+       padding-left: 10px;
+       padding-right: 10px;
     }
     .download{
         display: none;
     }
     .toggle-menu{
         display: flex;
-
+        width: 100%;
+        /* background-color: red; */
+        height: 500px;
     }
     .toggle-list-container{
-        height: 60vh;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
-        gap: 60px;
-        font-size: 24px;
+        gap: 50px;
+    }
+    .toggle-list-container li{
         list-style: none;
-        text-decoration: none;
-        color: black;
-        backdrop-filter: blur(10px);
     }
     .toggle-list-container a{
         text-decoration: none;
         color: black;
+        font-size: 24px;
     }
 }

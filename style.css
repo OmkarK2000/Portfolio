@@ -9,13 +9,6 @@
 html{
   scroll-behavior: smooth;
 }
-.header {
-  /* width: 100vw; */
-  /* height: 4rem; */
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .navbar {
   width: 100%;
@@ -79,6 +72,12 @@ html{
 
 .toggle-menu {
   display: none;
+  position: fixed;
+  top: 82px;
+  left: -600px;
+}
+.active{
+  left: 0;
 }
 
 .hero {
