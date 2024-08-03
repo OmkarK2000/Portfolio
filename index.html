@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
     <title>Document</title>
@@ -19,6 +23,9 @@
         <div>
           <h3>Omkar.dev</h3>
         </div>
+        <div class="hamburger">
+          <i class="ri-menu-line" id="hamburgerBTN" style="font-size: 24px"></i>
+        </div>
         <ul class="list-container">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -26,19 +33,19 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="download">
-          <a class="btn-primary" href="./asset/Omkar CV.pdf" target="_blank">Download CV</a>
+          <a class="btn-primary" href="./asset/Omkar CV.pdf" target="_blank"
+            >Download CV</a
+          >
         </div>
       </nav>
-      <div class="toggle-menu">
-        <ul class="toggle-list-container">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div class="toggle-menu" id="toggle-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </div>
     </header>
-    <!-- <main>
+    <main>
       <div class="hero" id="home">
         <div class="hero-content-container">
           <h3>Omkar Kardile</h3>
@@ -49,7 +56,9 @@
           </p>
           <div>
             <button class="btn-secondry">Hire me</button>
-            <a class="btn-primary" href="./asset/Omkar CV.pdf" target="_blank">Download CV</a>
+            <a class="btn-primary" href="./asset/Omkar CV.pdf" target="_blank"
+              >Download CV</a
+            >
           </div>
         </div>
         <div class="hero-img-container">
@@ -95,8 +104,10 @@
             <div class="card-content">
               <h3>E-commerce</h3>
               <p>
-                Build a E-commerce store using technologies like React.js, Redux-toolkit, REST API and Tailwind CSS. Utilize a DummyJSON API to fetch products data.
-                Handle API responses and error appropriately. 
+                Build a E-commerce store using technologies like React.js,
+                Redux-toolkit, REST API and Tailwind CSS. Utilize a DummyJSON
+                API to fetch products data. Handle API responses and error
+                appropriately.
               </p>
               <button class="btn-secondry">Go to website</button>
             </div>
@@ -108,14 +119,18 @@
             <div class="card-content">
               <h3>Weather App</h3>
               <p>
-                Introducing a Weather Website, a sleek and user-friendly weather website built entirely using React.js. With a clean and intuitive interface, this weather website provides up-to-date weather information for any location worldwide.
+                Introducing a Weather Website, a sleek and user-friendly weather
+                website built entirely using React.js. With a clean and
+                intuitive interface, this weather website provides up-to-date
+                weather information for any location worldwide.
               </p>
               <button class="btn-secondry">Go to website</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="contact" id="contact">
+      
+     <div class="contact" id="contact">
         <div class="contact-header">
           <h2>Get in touch</h2>
           <p>Do you have a project in your mind, contact me here</p>
@@ -128,8 +143,8 @@
           </div>
           <div class="contact-right-content">
             <div class="contact-input-container">
-              <input type="text" placeholder="Name">
-              <input type="email" placeholder="Email" >
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
             </div>
             <div>
               <textarea placeholder="Message" rows="12"></textarea>
@@ -139,10 +154,10 @@
         </div>
       </div>
     </main>
-    <footer>
+    <!-- <footer>
       <div class="footer">
         <h3>Omkar Kardile</h3>
-        <ul>        
+        <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#project">Projects</a></li>
@@ -152,4 +167,5 @@
       </div>
     </footer> -->
   </body>
+  <script src="./script.js"></script>
 </html>

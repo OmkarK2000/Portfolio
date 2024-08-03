@@ -25,6 +25,9 @@ html{
   font-size: 2rem;
   color: #002c54;
 }
+.hamburger{
+  display: none;
+}
 .list-container {
   display: flex;
   gap: 8px;
@@ -74,10 +77,18 @@ html{
   display: none;
   position: fixed;
   top: 82px;
-  left: -600px;
+  /* left: -600px; */
+  /* background-color: transparent; */
+  transform: translateX(-300px);
+  transition: transform 1s ease-out, visibility 1s;
+  visibility: hidden;
+  /* width: 300px; */
 }
 .active{
-  left: 0;
+  /* left: 0; */
+  transform: translateX(0px); 
+  transition: transform 1s ease-out, visibility 0s;
+  visibility: visible;
 }
 
 .hero {
@@ -205,7 +216,7 @@ html{
   padding-inline: 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
 .about-content-right-container li{
@@ -279,7 +290,7 @@ html{
 .contact-header h2{
   text-align: center;
   font-size: 28px;
-  margin-top: 40px;
+  margin-top: 40px;  
 }
 .contact-header p{
   color: #999999;
